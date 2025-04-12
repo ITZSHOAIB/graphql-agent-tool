@@ -1,0 +1,14 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "name": "GraphQL Agent Tool",
+  "cleanOutputDir": true,
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "projectDocuments": ["guides/*.md"],
+  "readme": "none",
+  "plugin": ["typedoc-plugin-zod", "typedoc-github-theme"]
+}
