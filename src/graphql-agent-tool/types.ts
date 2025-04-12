@@ -37,6 +37,7 @@ export const optionsSchema = z.object({
 });
 
 /**
+ * @interface GraphqlAgentToolOptions - The options for creating a GraphQL agent tool.
  * @property {string} name - The name of the tool. Name can be the functionality of the graphql operation.
  * @property {string} purpose - The purpose of the tool. Purpose should be well defined and should be able to be used by the LLM to understand the functionality of the tool.
  * @property {string} url - The URL of the GraphQL endpoint to query.

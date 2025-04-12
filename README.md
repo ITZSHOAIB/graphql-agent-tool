@@ -1,86 +1,81 @@
-# TypeScript Library Starter 🚀
+# GraphQL Agent Tool
 
-Welcome to the **TypeScript Library Starter**! This template is designed to help you kickstart your TypeScript library development with ease. It includes all the necessary tools and configurations to get you up and running quickly.
+A powerful LangChain tool that enables LLM models and AI agents to autonomously execute GraphQL queries and mutations. This package allows AI agents to intelligently interact with GraphQL APIs, making decisions about when and how to fetch or modify data through GraphQL endpoints without explicit human intervention.
 
-> [!NOTE]
-> This is **[ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)** only
+[![npm version](https://badge.fury.io/js/graphql-agent-tool.svg)](https://badge.fury.io/js/graphql-agent-tool)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 
-## Features ✨
+## Features
 
-- **TypeScript** for type-safe code
-- **Vitest** for testing
-- **Biome** for linting and formatting
-- **Changesets** for versioning and changelogs
-- **GitHub Actions** for CI/CD
-- **Automated NPM Release** for hassle-free release
-- **simple-git-hooks** for better collaboration
+- 🤖 Autonomous GraphQL operation execution by AI agents
+- 🔄 Intelligent query/mutation selection based on agent's needs
+- 🛠️ Type-safe implementation with TypeScript
+- 🔌 Seamless integration with LangChain/Langgraph/LLM Models
+- 🎯 Customizable response parsing for agent consumption
+- 🔒 Secure configuration options
+- 📝 Comprehensive documentation
+- 🧪 Test coverage - 100%
 
-## Getting Started 🛠️
+## Installation
 
-### Prerequisites
+```bash
+# Using npm
+npm install graphql-agent-tool
 
-- **Node.js (>= 20.0.0)**
-- **pnpm (>= 9.12.0)**
+# Using yarn
+yarn add graphql-agent-tool
 
-### Installation
+# Using pnpm
+pnpm add graphql-agent-tool
+```
 
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/ITZSHOAIB/typescript-library-starter.git
-    cd typescript-library-starter
-    ```
+## Prerequisites
 
-2. **Install dependencies**:
-    ```sh
-    pnpm i
-    ```
+- Node.js >= 20.0.0
+- TypeScript >= 5.0.4 (optional but recommended)
 
-## Usage 📚
+## Documentation
 
-After the installation, you can start using your library in your projects. Here's an example of how to import and use your library:
+For detailed documentation and examples, please refer to our guides:
 
-- Replace `typescript-library-starter` with the actual name of your library as specified in your package.json along with other appropriate fields as well.
+- [Getting Started Guide](./guides/getting-started.md) - Learn how to integrate the GraphQL Agent Tool with your LLM model
+- [API Documentation](./docs/README.md) - Complete API reference
 
-- Note: If the GitHub Actions workflow is currently disabled, you can enable it by removing any comments or disabling flags in the workflow configuration files located in the `.github/workflows` directory.
+## Development
 
-- Note: To enable pre-commit hooks, run the following command:
-    ```sh
-    pnpm prepare
-    ```
+### Setup
 
-- For **Automated NPM Release**, add NPM token in github repository's secrets with key named `NPM_TOKEN`
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
 
-## Contributing 🤝
+### Available Scripts
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. Follow these steps to contribute:
+- `pnpm build` - Build the package
+- `pnpm test` - Run tests
+- `pnpm test:watch` - Run tests in watch mode
+- `pnpm test:coverage` - Run tests with coverage
+- `pnpm lint` - Run linter
+- `pnpm format` - Format code
+- `pnpm typecheck` - Type check the codebase
 
-1. **Fork the repository**:
-    Click the "Fork" button on the top right of the repository page.
+### Contributing
 
-2. **Clone your fork**:
-    ```sh
-    git clone https://github.com/your-username/typescript-library-starter.git
-    cd typescript-library-starter
-    ```
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-3. **Create a new branch**:
-    ```sh
-    git checkout -b feature/your-feature-name
-    ```
+## License
 
-4. **Make your changes** and **commit**:
-    ```sh
-    git commit -m "Add your commit message"
-    ```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-5. **Push to your fork**:
-    ```sh
-    git push origin feature/your-feature-name
-    ```
+## Author
 
-6. **Create a pull request**:
-    Go to the original repository and click the "New pull request" button.
+Sohab Sk - [GitHub](https://github.com/ITZSHOAIB)
 
-## License 📄
+## Acknowledgments
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- [LangChain](https://github.com/langchain-ai/langchain) for the amazing framework
+- [Axios](https://axios-http.com/) for the HTTP client
+- [Zod](https://zod.dev/) for runtime type checking
