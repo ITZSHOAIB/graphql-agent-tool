@@ -11,8 +11,8 @@
     }
   },
   "types": "dist/index.d.ts",
-  "type": "module",
   "files": ["dist"],
+  "type": "module",
   "scripts": {
     "build": "pnpm clean && tsc",
     "clean": "rimraf dist",
