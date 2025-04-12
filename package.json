@@ -1,6 +1,6 @@
 {
   "name": "graphql-agent-tool",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A LangChain tool for executing GraphQL queries and mutations",
   "main": "dist/index.js",
   "module": "dist/index.js",
