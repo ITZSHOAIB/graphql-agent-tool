@@ -17,6 +17,12 @@ yarn add graphql-agent-tool
 pnpm add graphql-agent-tool
 ```
 
+## Prerequisites
+
+- Node.js >= 20.0.0
+- TypeScript >= 5.0.4 (optional but recommended)
+
+
 ## Quick Start
 
 Here's a simple example of how to integrate the GraphQL Agent Tool with your LLM model:

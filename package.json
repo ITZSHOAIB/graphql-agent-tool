@@ -14,7 +14,7 @@
   "files": ["dist"],
   "type": "module",
   "scripts": {
-    "docs:dev": "typedoc",
+    "docs:ci": "typedoc",
     "build": "pnpm clean && tsc",
     "clean": "rimraf dist",
     "format": "biome format --write",

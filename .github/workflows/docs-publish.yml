@@ -35,7 +35,7 @@ jobs:
         run: pnpm install
 
       - name: Build documentation
-        run: pnpm docs:dev
+        run: pnpm docs:ci
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

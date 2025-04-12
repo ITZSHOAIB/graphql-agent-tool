@@ -39,8 +39,8 @@ pnpm add graphql-agent-tool
 
 For detailed documentation and examples, please refer to our guides:
 
-- [Getting Started Guide](./guides/getting-started.md) - Learn how to integrate the GraphQL Agent Tool with your LLM model
-- [API Documentation](./docs/README.md) - Complete API reference
+- [Getting Started Guide 🧭](https://ITZSHOAIB.github.io/graphql-agent-tool) - Learn how to integrate the GraphQL Agent Tool with your LLM model
+- [API Documentation 📚](https://ITZSHOAIB.github.io/graphql-agent-tool) - Complete API reference
 
 ## Development
 
