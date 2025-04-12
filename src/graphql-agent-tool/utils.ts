@@ -1,9 +1,21 @@
+/**
+ * Get the operation type from the query.
+ * @param query The GraphQL query or mutation.
+ * @returns The operation type. Can be `query` or `mutation`.
+ */
 export const operationType = (query: string): "query" | "mutation" => {
   return query.trim().toLowerCase().startsWith("mutation")
     ? "mutation"
     : "query";
 };
 
+/**
+ * Generate the description for the tool.
+ * @param operation The operation type. Can be `query` or `mutation`.
+ * @param purpose The purpose of the tool.
+ * @param url The URL of the GraphQL endpoint.
+ * @returns The description for the tool.
+ */
 export const generateDescription = (
   operation: "query" | "mutation",
   purpose: string,
