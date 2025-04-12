@@ -2,6 +2,21 @@
 
 This guide will help you get started with using the GraphQL Agent Tool in your AI agent applications.
 
+## Installation
+
+You can install the GraphQL Agent Tool using npm, yarn, or pnpm:
+
+```bash
+# Using npm
+npm install graphql-agent-tool
+
+# Using yarn
+yarn add graphql-agent-tool
+
+# Using pnpm
+pnpm add graphql-agent-tool
+```
+
 ## Quick Start
 
 Here's a simple example of how to integrate the GraphQL Agent Tool with your LLM model:

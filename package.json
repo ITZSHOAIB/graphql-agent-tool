@@ -11,8 +11,8 @@
     }
   },
   "types": "dist/index.d.ts",
-  "type": "module",
   "files": ["dist"],
+  "type": "module",
   "scripts": {
     "docs:dev": "typedoc",
     "build": "pnpm clean && tsc",
@@ -81,7 +81,7 @@
     "*": ["pnpm lint", "git add"]
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm typecheck && pnpm docs:dev && pnpm test:coverage && pnpm lint:staged"
+    "pre-commit": "pnpm typecheck && pnpm test:coverage && pnpm lint:staged"
   },
   "packageManager": "pnpm@10.8.0",
   "engines": {
