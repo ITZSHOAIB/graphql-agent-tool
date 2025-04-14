@@ -49,7 +49,7 @@
     "typedoc-github-theme": "^0.3.0",
     "typedoc-plugin-zod": "^1.4.0",
     "typescript": "^5.8.3",
-    "vitest": "^2.1.5"
+    "vitest": "^3.1.1"
   },
   "peerDependencies": {
     "@langchain/core": "^0.3.44",
